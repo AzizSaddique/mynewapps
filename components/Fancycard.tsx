@@ -4,7 +4,7 @@ import React from 'react'
 export default function Fancycard() {
   return (
     <View>
-      <Text style={styles.headingText}>Trending Places</Text>
+      <Text style={styles.headingText}>Trending Places for my work</Text>
     </View>
   )
 }
