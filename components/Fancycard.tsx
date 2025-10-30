@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
     marginHorizontal:10
   },
   cardElevated: {
-    backgroundColor:'#ffff',
+    backgroundColor:'#c46e6eff',
     elevation:3,
     shadowOffset:{
       width:1,
