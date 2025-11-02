@@ -53,13 +53,17 @@ const styles = StyleSheet.create({
         paddingHorizontal: 10,
     },
     container: {
-        paddingHorizontal:16,
+        paddingHorizontal:10,
 
     },
     userCard: {
         flex:1,
         flexDirection:'row',
-        alignItems:'center'
+        alignItems:'center',
+        backgroundColor:'#d7529dff',
+        marginVertical:4,
+        borderRadius:14
+        
     },
     imageCard: {
         width: 60,
@@ -67,6 +71,13 @@ const styles = StyleSheet.create({
         borderRadius: 60 / 2,
         margin:12
     },
-    nameCard: {},
-    statusCard: {},
+    nameCard: {
+        fontSize:16,
+        fontWeight:'600',
+        color:'#fff'
+    },
+    statusCard: {
+        fontSize:12,
+        color:'#505450ff'
+    },
 })
